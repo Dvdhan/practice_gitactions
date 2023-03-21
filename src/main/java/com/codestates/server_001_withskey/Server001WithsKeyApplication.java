@@ -8,9 +8,7 @@ import org.springframework.data.redis.repository.configuration.EnableRedisReposi
 @SpringBootApplication
 @EnableJpaAuditing
 public class Server001WithsKeyApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(Server001WithsKeyApplication.class, args);
     }
-
 }
